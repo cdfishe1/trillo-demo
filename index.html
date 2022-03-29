@@ -45,8 +45,100 @@
                 </nav>
             </header>
             <div class="content">
-                <nav class="sidebar">Sidebar</nav>
-                <main class="hotel-view">Hotel View</main>
+                <nav class="sidebar">
+                    <ul class="sitenav">
+                        <li class="sitenav__item sitenav__item--active">
+                            <a href="#" class="sitenav__link">
+                                <svg class="sitenav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                                </svg>
+                                <span class="sitenav__link-text">Hotel</span>
+                            </a>
+                        </li>
+
+                        <li class="sitenav__item">
+                                <a href="#" class="sitenav__link">
+                                <svg class="sitenav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-airplane"></use>
+                                </svg>
+                                <span class="sitenav__link-text">Flights</span>
+                            </a>
+                        </li>
+
+                        <li class="sitenav__item">
+                                <a href="#" class="sitenav__link">
+                                <svg class="sitenav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                                </svg>
+                                <span class="sitenav__link-text">Car Rentals</span>
+                            </a>
+                        </li>
+
+                        <li class="sitenav__item">
+                            <a href="#" class="sitenav__link">
+                                <svg class="sitenav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-map2"></use>
+                                </svg>
+                                <span class="sitenav__link-text">Tours</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="legal">
+                        &copy; 2022 by trillo. All rights reserved.
+                    </div>
+                </nav>
+
+                <main class="hotel-view" aria-labelledby="pageTitle">
+                    <ul class="gallery">
+                        <li class="gallery__item"><img src="img/hotel-1.jpg" alt="hotel" class="gallery__pic"></li>
+                        <li class="gallery__item"><img src="img/hotel-2.jpg" alt="hotel" class="gallery__pic"></li>
+                        <li class="gallery__item"><img src="img/hotel-3.jpg" alt="hotel" class="gallery__pic"></li>
+                    </ul>
+
+                    <div class="overview">
+                        <h1 class="overview__heading" id="pageTitle">Hotel Las Palmas</h1>
+
+                        <ul class="overview__ratings">
+                            <li class="overview__rating-item">
+                                <svg class="overview__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                                </svg>
+                            </li>
+                            <li class="overview__rating-item">
+                                <svg class="overview__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                                </svg>
+                            </li>
+                            <li class="overview__rating-item">
+                                <svg class="overview__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                                </svg>
+                            </li>
+                            <li class="overview__rating-item">
+                                <svg class="overview__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                                </svg>
+                            </li>
+                            <li class="overview__rating-item">
+                                <svg class="overview__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                                </svg>
+                            </li>
+                        </ul>
+
+                        <div class="overview__location">
+                            <svg class="overview__icon">
+                                <use xlink:href="img/sprite.svg#icon-map-marker-alt"></use>
+                            </svg>
+                            <a href="#" class="overview__city">Albufeira, Portugal</a>
+                        </div>
+
+                        <div class="overview__rating">
+                            <div class="overview__average">8.6</div>
+                            <div class="overview__count">429 votes</div>
+                        </div>
+                    </div>
+                </main>
             </div>
         </div>
     </body>
