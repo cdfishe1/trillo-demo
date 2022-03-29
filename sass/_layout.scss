@@ -8,6 +8,10 @@
 }
 
 .header {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 4.375rem;
     background-color: var(--color-bright);
     border-radius: var(--color-grey-dark-2);
@@ -24,5 +28,6 @@
 
 .hotel-view {
     background-color: var(--color-bright);
+    background-color: red;
     flex: 1;
 }
