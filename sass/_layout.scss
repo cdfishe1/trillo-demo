@@ -35,3 +35,23 @@
     
 }
 
+.detail {
+    display: flex;
+    gap: 2.8125rem;
+    padding: 2.8125rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--color-grey-light-2);
+}
+
+.description {
+    background-color: var(--color-bright);
+    box-shadow: var(--shadow-light);
+    padding: 1.875rem;
+    flex: 0 0 60%;
+    font-size: .0.875rem;
+}
+
+.user-reviews {
+    background-color: var(--color-grey-light-1);
+    flex: 1;
+}
